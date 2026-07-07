@@ -1,0 +1,20 @@
+{
+  "id": "mosh-darsh-journal-enhanced",
+  "title": "Mosh Darsh Journal Enhanced",
+  "version": "1.0.0",
+  "compatibility": { "minimum": "13", "verified": "13" },
+  "esmodules": [
+    "themes/gradient-descent/scripts/gradient-descent-journal-sheet.mjs"
+  ],
+  "styles": [
+    "themes/gradient-descent/styles/variables.css",
+    "themes/gradient-descent/styles/journal.css",
+    "themes/gradient-descent/styles/blocks.css"
+  ],
+  "relationships": {
+    "systems": [{ "id": "mosh", "type": "system" }]
+  },
+  "url": "https://github.com/Darshyne/mosh-darsh-journal-enhanced",
+  "manifest": "https://raw.githubusercontent.com/Darshyne/mosh-darsh-journal-enhanced/main/module.json",
+  "download": "https://github.com/Darshyne/mosh-darsh-journal-enhanced/releases/latest/download/mosh-darsh-journal-enhanced.zip"
+}
