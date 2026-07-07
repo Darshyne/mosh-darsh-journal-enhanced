@@ -1,0 +1,123 @@
+/* ============================================================
+   GRADIENT DESCENT — Content Blocks
+   Deux encadrés inspirés du PDF Gradient Descent
+   ============================================================ */
+
+/* ============================================================
+   COMMUN aux deux encadrés
+   ============================================================ */
+
+.gd-journal-sheet .journal-entry-content div.gd.box-red,
+.gd-journal-sheet .journal-entry-content div.gd.box-outline {
+  border: 2px solid var(--gd-red);
+  border-radius: 6px;
+  margin: 1.6rem 0;
+  padding: 0 1.4rem 1.2rem 1.4rem;
+  position: relative;
+}
+
+/* Titre centré commun */
+.gd-journal-sheet .journal-entry-content div.gd.box-red > h3,
+.gd-journal-sheet .journal-entry-content div.gd.box-outline > h3 {
+  font-family: var(--font-title) !important;
+  font-size: var(--font-size-lg) !important;
+  font-weight: normal !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.2em !important;
+  text-align: center !important;
+  color: var(--gd-text-primary) !important;
+  margin: 0 -1.4rem 1rem -1.4rem !important;
+  padding: 0.55rem 1.4rem !important;
+  line-height: 1.2 !important;
+  border-bottom: 2px solid var(--gd-red) !important;
+}
+
+/* Paragraphes communs */
+.gd-journal-sheet .journal-entry-content div.gd.box-red p,
+.gd-journal-sheet .journal-entry-content div.gd.box-outline p {
+  color: var(--gd-text-primary);
+  font-size: var(--font-size-sm);
+  line-height: 1.65;
+  margin-bottom: 0.5rem;
+}
+
+.gd-journal-sheet .journal-entry-content div.gd.box-red p:last-child,
+.gd-journal-sheet .journal-entry-content div.gd.box-outline p:last-child {
+  margin-bottom: 0;
+}
+
+/* Listes communes */
+.gd-journal-sheet .journal-entry-content div.gd.box-red ul,
+.gd-journal-sheet .journal-entry-content div.gd.box-outline ul {
+  margin: 0.4rem 0 0.5rem 0;
+  padding-left: 1rem;
+}
+
+.gd-journal-sheet .journal-entry-content div.gd.box-red ul li,
+.gd-journal-sheet .journal-entry-content div.gd.box-outline ul li {
+  list-style: none;
+  position: relative;
+  padding-left: 1.1rem;
+  margin-bottom: 0.35rem;
+  font-size: var(--font-size-sm);
+  line-height: 1.55;
+  color: var(--gd-text-primary);
+}
+
+.gd-journal-sheet .journal-entry-content div.gd.box-red ul li::before,
+.gd-journal-sheet .journal-entry-content div.gd.box-outline ul li::before {
+  content: "▶";
+  position: absolute;
+  left: -0.1rem;
+  color: var(--gd-red);
+  font-size: 0.6em;
+  top: 0.35em;
+}
+
+/* ============================================================
+   ENCADRÉ ROUGE PLEIN — style "BRAINSCANS"
+   Fond rouge foncé, titre sur fond rouge vif
+   ============================================================ */
+
+.gd-journal-sheet .journal-entry-content div.gd.box-red {
+  background: rgba(120, 15, 0, 0.45);
+}
+
+.gd-journal-sheet .journal-entry-content div.gd.box-red > h3 {
+  background: rgba(160, 20, 0, 0.7) !important;
+}
+
+/* Liens et gras en rouge vif dans l'encadré rouge */
+.gd-journal-sheet .journal-entry-content div.gd.box-red a,
+.gd-journal-sheet .journal-entry-content div.gd.box-red .content-link {
+  color: var(--gd-red-bright) !important;
+  font-weight: 700 !important;
+  text-decoration: underline !important;
+}
+
+.gd-journal-sheet .journal-entry-content div.gd.box-red strong {
+  color: var(--gd-red-bright);
+}
+
+/* ============================================================
+   ENCADRÉ TRANSPARENT CONTOUR — style "ZERO-G"
+   Fond transparent, bordure rouge, titre sans fond
+   ============================================================ */
+
+.gd-journal-sheet .journal-entry-content div.gd.box-outline {
+  background: transparent;
+}
+
+.gd-journal-sheet .journal-entry-content div.gd.box-outline > h3 {
+  background: transparent !important;
+}
+
+.gd-journal-sheet .journal-entry-content div.gd.box-outline strong {
+  color: var(--gd-text-primary);
+  font-weight: 700;
+}
+
+.gd-journal-sheet .journal-entry-content div.gd.box-outline em {
+  font-style: italic;
+  color: var(--gd-text-italic);
+}

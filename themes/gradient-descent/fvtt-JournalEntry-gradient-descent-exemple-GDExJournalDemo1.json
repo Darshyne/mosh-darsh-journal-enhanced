@@ -1,0 +1,111 @@
+{
+  "name": "Gradient Descent — Journal Exemple",
+  "pages": [
+    {
+      "_id": "GDExPage01IntroA",
+      "name": "Procédures de Base",
+      "type": "text",
+      "sort": 100,
+      "title": { "show": true, "level": 1 },
+      "text": {
+        "format": 1,
+        "content": "<p>L'astuce pour diriger <strong>THE DEEP</strong> est de vous surprendre vous-même. Utilisez les <strong>Rencontres Aléatoires</strong> pour donner un contexte à l'espace et les <strong>Jets de Réaction</strong> pour donner du sens aux interactions.</p><section class=\"gd procedure\"><h3>Rencontres Aléatoires</h3><p>Lancez <strong>1d100 toutes les 10 minutes</strong> (ou une fois par salle à échelle humaine / trois fois dans une salle □). Également après un bruit fort (tir, cri, coups de feu).</p><ul><li>Un résultat de <strong>doubles</strong> déclenche une rencontre.</li><li>Si le résultat est <strong>bas</strong> (moins de 50) la rencontre est proche.</li><li>Si le résultat est <strong>haut</strong> (plus de 50) la rencontre est loin.</li><li>Lancez <strong>1d10</strong> sur la Table des Rencontres.</li></ul></section><section class=\"gd procedure\"><h3>Jets de Réaction</h3><p>Lancez <strong>1d100</strong> pour déterminer la première impression du groupe rencontré.</p><ul><li>Un résultat <strong>pair</strong> indique une réaction positive, impair une réaction négative.</li><li>Un résultat de <strong>doubles</strong> augmente la force de la réaction.</li><li>Un résultat <strong>élevé</strong> indique que le groupe est en position de force (bien équipé, non blessé). Un résultat <strong>bas</strong> indique qu'il est en position de faiblesse.</li></ul></section><aside class=\"gd notable\"><h3>ZERO-G</h3><p>Une grande partie du complexe manque de gravité artificielle, ce qui peut être déroutant pour beaucoup de Gardiens. Si vous gardez les points suivants en tête, tout ira bien :</p><ul><li>Ne vous inquiétez pas à moins que les enjeux ne soient élevés ou intéressants pour vos joueurs.</li><li>Toute personne avec Zéro-G obtient une passe. Toute personne sans Zéro-G a [-].</li><li>L'élan ne va nulle part, il faut l'annuler. Décrivez cela.</li><li>Remplacez le vocabulaire <em>MARCHER/COURIR</em> par <em>FLOTTER/POUSSER</em>.</li><li><em>HAUT/BAS/GAUCHE/DROITE</em> est trop relatif. Utilisez <em>VERS LE SOL/PLAFOND</em>.</li></ul></aside>"
+      },
+      "system": {},
+      "image": {},
+      "video": { "controls": true, "volume": 0.5 },
+      "src": null,
+      "category": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "mosh",
+        "systemVersion": "0.6.0",
+        "lastModifiedBy": null
+      },
+      "ownership": { "default": -1 }
+    },
+    {
+      "_id": "GDExPage02FloorB",
+      "name": "Étage 3.4 : Construction Cérébrale",
+      "type": "text",
+      "sort": 200,
+      "title": { "show": true, "level": 1 },
+      "text": {
+        "format": 1,
+        "content": "<p class=\"gd-room-title\"><span class=\"room-code\">[44A] □</span> ENTRÉE CLINIQUE (0G):</p><p>Blanc clinique, plein de poignées. Trois <span class=\"gd-red\">Androïdes de Sécurité</span> flottent au centre de la salle, entourés de gouttelettes de Pseudolait, crânes ouverts, Noyaux Logiques sortis.</p><p class=\"gd-room-title\"><span class=\"room-code\">[44B] □</span> BOUCLES DÉSERTIQUES (0G):</p><p>Énorme boucle de verre et un <strong>flux d'air chaud</strong>. Remplie de <strong>sable pur</strong>, coulant sans fin, un murmure amplifié jusqu'au rugissement.</p><section class=\"gd warning\"><p>Les Aiguilles de Gravure forcent un <em>Jet de Corps</em> ([-] si entraîné Zéro-G) ou 3d10 DGT alors que les machines continuent, ignorant la viande dans leur chemin.</p></section><p class=\"gd-room-title\"><span class=\"room-code\">[44C] □</span> CONFINEMENT (0G):</p><p>Murs tachés de grandes quantités de Pseudolait. <strong>Énorme cage rouillée</strong> : tenue par des chaînes au centre de la pièce. À l'intérieur : de grands morceaux séchés de Pseudochaire.</p><aside class=\"gd stat-block\"><p><strong>Androïde de Sécurité</strong> C:60 SMG 4d10 I:50 B:2(40)</p></aside><p class=\"gd-room-title\"><span class=\"room-code\">[44D] □</span> STOCKAGE ANIMAL (0G):</p><p>Odeur plastique fraîche, carreaux de sol en cuir, fèces.</p><ul><li><strong>Étagères :</strong> <em>PSEUDOSNAX SYNTHETIC ANIMAL TREATS.</em> 10 friandises restantes.</li><li><strong>Accrochoirs muraux :</strong> 4 laisses, 1 matraque basse puissance, muselière, veste orange ANML-CTRL.</li><li><strong>8 cages :</strong> 7 contiennent des <span class=\"gd-red\">Chiens Androïdes désactivés</span>. 1 est <strong>mâchée ouverte</strong> de l'intérieur.</li></ul><aside class=\"gd stat-block\"><p><strong>Chiens Androïdes</strong> C:65 Morsure 3d10 I:50 B:1(10)</p></aside>"
+      },
+      "system": {},
+      "image": {},
+      "video": { "controls": true, "volume": 0.5 },
+      "src": null,
+      "category": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "mosh",
+        "systemVersion": "0.6.0",
+        "lastModifiedBy": null
+      },
+      "ownership": { "default": -1 }
+    },
+    {
+      "_id": "GDExPage03LoreCC",
+      "name": "L'IA Monarque",
+      "type": "text",
+      "sort": 300,
+      "title": { "show": true, "level": 1 },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"gd lore\"><p><em>GRADIENT DESCENT</em> détaille la massive usine abandonnée d'androïdes anciennement connue sous le nom de <strong>CLOUDBANK Synthetics Production Facility</strong>. L'établissement, maintenant appelé <strong>THE DEEP</strong>, a été repris par son IA industrielle, <span class=\"gd-red\">Monarque</span>, et est barricadé par un blocus impitoyable de mercenaires soutenus par des entreprises.</p></section><aside class=\"gd notable\"><h3>BRAINSCANS</h3><p><span class=\"gd-red\">Monarque (p. 8)</span> stocke des sauvegardes complètes de cerveaux humains, appelées <strong>Brainscans</strong>, qu'il utilise ensuite pour créer des <span class=\"gd-red\">Androïdes Infiltrateurs (p. 10)</span> avec de faux souvenirs implantés.</p><ul><li>Les Brainscans sont stockés au <span class=\"gd-red\">[47H] BRAINSCAN DATABANK</span>.</li><li>Si Monarque le juge nécessaire, il créera des Androïdes Infiltrateurs à partir des membres d'équipage scannés.</li><li>Monarque connaît tous les souvenirs les plus intimes des victimes de brainscan, et les utilise sans pitié.</li><li>Être scanné augmente vos <strong>Courbures (p. 9)</strong> de 1d10.</li></ul></aside><div class=\"gd divider\">DONNÉES DE MISSION</div><p>L'établissement peut facilement être un module autonome, mais il contient également des tonnes d'opportunités de jeu de rôle selon ce dans quoi votre groupe est impliqué.</p><ul><li><strong>Si vous dirigez une campagne en cours :</strong> placez THE DEEP quelque part dans l'espace et faites circuler des rumeurs sur les Artefacts (p. 62) enterrés à l'intérieur.</li><li><strong>Si vous commencez une nouvelle campagne :</strong> placez vos joueurs juste à l'extérieur du blocus.</li><li><strong>Si vous voulez juste du contenu à voler :</strong> chaque <span class=\"gd-red\">Artefact (p. 62)</span> peut facilement se trouver sur un vaisseau en dérive.</li></ul><section class=\"gd warning\"><p>Il y a des <strong>Enfants Androïdes</strong> dans ce module qui sont, en essence, torturés par Monarque. Si cela rendait quelqu'un à votre table mal à l'aise, nous recommandons fortement de les remplacer par des adultes.</p></section>"
+      },
+      "system": {},
+      "image": {},
+      "video": { "controls": true, "volume": 0.5 },
+      "src": null,
+      "category": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "mosh",
+        "systemVersion": "0.6.0",
+        "lastModifiedBy": null
+      },
+      "ownership": { "default": -1 }
+    }
+  ],
+  "folder": null,
+  "categories": [],
+  "flags": {
+    "core": {
+      "sheetClass": "mosh-darsh-journal-enhanced.GradientDescentJournalSheet"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": {
+      "worldId": "mothership2",
+      "uuid": "JournalEntry.GDExJournalDemo1",
+      "coreVersion": "13.351",
+      "systemId": "mosh",
+      "systemVersion": "0.6.0"
+    },
+    "coreVersion": "13.351",
+    "systemId": "mosh",
+    "systemVersion": "0.6.0",
+    "createdTime": 1777200000000,
+    "modifiedTime": 1777200000000,
+    "lastModifiedBy": "dutS9fDETXwReRLg"
+  },
+  "ownership": { "default": 0 }
+}

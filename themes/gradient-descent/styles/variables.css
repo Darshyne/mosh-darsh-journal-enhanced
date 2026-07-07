@@ -1,0 +1,70 @@
+/* ============================================================
+   GRADIENT DESCENT — CSS Variables
+   Inspired by the Gradient Descent module for Mothership RPG
+   ============================================================ */
+
+@font-face {
+  font-family: 'Routed Gothic Wide';
+  src: url('../assets/fonts/routed-gothic-wide.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Routed Gothic';
+  src: url('../assets/fonts/routed-gothic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.gd-journal-sheet {
+
+  /* === COULEURS FOND === */
+  --gd-bg-dark:        #0d1a22;       /* Bleu-noir profond */
+  --gd-bg-medium:      #111f2a;       /* Bleu nuit */
+  --gd-bg-panel:       rgba(10, 18, 26, 0.88);
+  --gd-bg-card:        rgba(8, 16, 23, 0.75);
+
+  /* === COULEURS TEXTE === */
+  --gd-text-primary:   #e8e4dc;       /* Blanc cassé légèrement chaud */
+  --gd-text-secondary: #b0aaa0;       /* Gris moyen */
+  --gd-text-muted:     #6e6a62;       /* Gris foncé */
+  --gd-text-italic:    #c8c2b8;
+
+  /* === ACCENTS === */
+  --gd-red:            #cc2200;       /* Rouge vif Gradient Descent */
+  --gd-red-bright:     #e63010;       /* Rouge lien/hover */
+  --gd-red-dark:       #8a1500;       /* Rouge foncé */
+  --gd-red-bg:         rgba(180, 30, 0, 0.15);
+  --gd-red-border:     #cc2200;
+
+  --gd-orange:         #d44000;       /* Orange accent secondaire */
+  --gd-gold:           #c8a040;       /* Or pour détails */
+
+  /* === BORDURES === */
+  --gd-border-light:   rgba(200, 190, 170, 0.2);
+  --gd-border-medium:  rgba(200, 190, 170, 0.35);
+  --gd-border-red:     #cc2200;
+  --gd-border-dark:    rgba(10, 18, 26, 0.8);
+
+  /* === TYPOGRAPHIE === */
+  --font-title:        'Routed Gothic Wide', 'Impact', 'Arial Narrow', sans-serif;
+  --font-subtitle:     'Routed Gothic', 'Routed Gothic Wide', 'Arial Narrow', sans-serif;
+  --font-body:         'Signika', 'Roboto', sans-serif;
+  --font-mono:         'Courier New', 'Consolas', monospace;
+
+  --font-size-xs:      0.72rem;
+  --font-size-sm:      0.85rem;
+  --font-size-base:    0.95rem;
+  --font-size-md:      1.1rem;
+  --font-size-lg:      1.3rem;
+  --font-size-xl:      1.6rem;
+  --font-size-xxl:     2rem;
+
+  /* === ESPACEMENT === */
+  --gd-radius:         3px;
+  --gd-radius-md:      5px;
+  --gd-gap:            1.25rem;
+}

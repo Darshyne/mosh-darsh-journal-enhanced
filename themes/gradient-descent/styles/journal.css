@@ -1,0 +1,322 @@
+/* ============================================================
+   GRADIENT DESCENT — Journal Base Styles
+   ============================================================ */
+
+/* === FENÊTRE PRINCIPALE === */
+
+.gd-journal-sheet.app {
+  background: transparent !important;
+  border: 2px solid var(--gd-border-medium) !important;
+  box-shadow:
+    0 0 40px rgba(0, 0, 0, 0.8),
+    inset 0 0 60px rgba(0, 0, 0, 0.4) !important;
+}
+
+.gd-journal-sheet .window-content {
+  background: transparent !important;
+  padding: 0 !important;
+}
+
+/* === FOND DU JOURNAL === */
+
+.gd-journal-sheet .journal-entry-content {
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(8, 16, 24, 0.65) 0%,
+      rgba(10, 20, 30, 0.55) 50%,
+      rgba(8, 16, 24, 0.65) 100%
+    ),
+    url('../assets/GD_bg.webp') center center / cover no-repeat !important;
+  background-color: var(--gd-bg-dark) !important;
+  min-height: 100%;
+}
+
+/* === SIDEBAR (liste des pages) === */
+
+.gd-journal-sheet .sidebar {
+  background: rgba(5, 12, 18, 0.92) !important;
+  border-right: 2px solid var(--gd-red-dark) !important;
+}
+
+.gd-journal-sheet .sidebar a {
+  color: var(--gd-text-secondary) !important;
+  font-family: var(--font-title) !important;
+  font-size: var(--font-size-xs) !important;
+  letter-spacing: 0.08em !important;
+  text-transform: uppercase !important;
+  transition: color 0.2s ease !important;
+}
+
+.gd-journal-sheet .sidebar a:hover {
+  color: var(--gd-red-bright) !important;
+}
+
+.gd-journal-sheet .sidebar .pages-list .directory-item.active {
+  border-color: var(--gd-red) !important;
+  background: rgba(180, 30, 0, 0.1) !important;
+}
+
+/* === HEADER DE LA FENÊTRE === */
+
+.gd-journal-sheet header.window-header {
+  background: rgba(5, 12, 18, 0.95) !important;
+  border-bottom: 2px solid var(--gd-red-dark) !important;
+}
+
+.gd-journal-sheet header.window-header .window-title {
+  font-family: var(--font-title) !important;
+  color: var(--gd-text-primary) !important;
+  letter-spacing: 0.12em !important;
+  text-transform: uppercase !important;
+  font-size: var(--font-size-sm) !important;
+}
+
+/* === CONTENU PRINCIPAL === */
+
+.gd-journal-sheet .journal-entry-content .journal-page-content {
+  padding: 2rem 2.5rem !important;
+  max-width: 100% !important;
+}
+
+/* === TYPOGRAPHIE GLOBALE === */
+
+.gd-journal-sheet .journal-entry-content p {
+  color: var(--gd-text-primary);
+  font-family: var(--font-body);
+  font-size: var(--font-size-base);
+  line-height: 1.65;
+  margin-bottom: 0.75rem;
+}
+
+.gd-journal-sheet .journal-entry-content em,
+.gd-journal-sheet .journal-entry-content i {
+  color: var(--gd-text-italic);
+  font-style: italic;
+}
+
+.gd-journal-sheet .journal-entry-content strong,
+.gd-journal-sheet .journal-entry-content b {
+  color: var(--gd-text-primary);
+  font-weight: 700;
+}
+
+/* === TITRES === */
+
+.gd-journal-sheet .journal-entry-content h1,
+.gd-journal-sheet .journal-entry-content .journal-entry-page .journal-page-header h1 {
+  font-family: var(--font-title) !important;
+  color: var(--gd-text-primary) !important;
+  font-size: var(--font-size-xxl) !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.18em !important;
+  font-weight: normal !important;
+  margin: 0 0 1.5rem 0 !important;
+  padding-bottom: 0.6rem !important;
+  border-bottom: 2px solid var(--gd-border-medium) !important;
+  line-height: 1.2 !important;
+}
+
+.gd-journal-sheet .journal-entry-content h2 {
+  font-family: var(--font-title);
+  color: var(--gd-text-primary);
+  font-size: var(--font-size-xl);
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-weight: normal;
+  margin: 1.8rem 0 0.8rem 0;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--gd-border-light);
+  line-height: 1.25;
+}
+
+.gd-journal-sheet .journal-entry-content h3 {
+  font-family: var(--font-subtitle);
+  color: var(--gd-text-primary);
+  font-size: var(--font-size-lg);
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin: 1.4rem 0 0.6rem 0;
+  line-height: 1.3;
+}
+
+.gd-journal-sheet .journal-entry-content h4 {
+  font-family: var(--font-subtitle);
+  color: var(--gd-text-secondary);
+  font-size: var(--font-size-md);
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin: 1.1rem 0 0.5rem 0;
+}
+
+.gd-journal-sheet .journal-entry-content h5,
+.gd-journal-sheet .journal-entry-content h6 {
+  font-family: var(--font-body);
+  color: var(--gd-text-secondary);
+  font-size: var(--font-size-base);
+  font-weight: 700;
+  margin: 0.9rem 0 0.4rem 0;
+}
+
+/* === LISTES === */
+
+.gd-journal-sheet .journal-entry-content ul,
+.gd-journal-sheet .journal-entry-content ol {
+  color: var(--gd-text-primary);
+  font-family: var(--font-body);
+  font-size: var(--font-size-base);
+  padding-left: 1.5rem;
+  margin: 0.5rem 0 0.75rem 0;
+}
+
+.gd-journal-sheet .journal-entry-content ul li {
+  list-style: none;
+  position: relative;
+  padding-left: 1.2rem;
+  margin-bottom: 0.4rem;
+  line-height: 1.6;
+}
+
+.gd-journal-sheet .journal-entry-content ul li::before {
+  content: "▶";
+  position: absolute;
+  left: -0.2rem;
+  color: var(--gd-red);
+  font-size: 0.65em;
+  top: 0.3em;
+}
+
+/* Sous-liste avec puce secondaire */
+.gd-journal-sheet .journal-entry-content ul ul li::before {
+  content: "↳";
+  color: var(--gd-text-muted);
+  font-size: 0.85em;
+  top: 0.1em;
+}
+
+.gd-journal-sheet .journal-entry-content ol li {
+  margin-bottom: 0.4rem;
+  line-height: 1.6;
+}
+
+.gd-journal-sheet .journal-entry-content ol li::marker {
+  color: var(--gd-red);
+  font-weight: bold;
+}
+
+/* === LIENS === */
+
+.gd-journal-sheet .journal-entry-content a,
+.gd-journal-sheet .journal-entry-content .content-link {
+  color: var(--gd-red-bright) !important;
+  text-decoration: underline !important;
+  text-decoration-color: var(--gd-red-dark) !important;
+  transition: color 0.2s ease !important;
+  font-weight: 600 !important;
+}
+
+.gd-journal-sheet .journal-entry-content a:hover,
+.gd-journal-sheet .journal-entry-content .content-link:hover {
+  color: #ff5533 !important;
+  text-decoration-color: var(--gd-red-bright) !important;
+}
+
+/* === CITATIONS / BLOCKQUOTE === */
+
+.gd-journal-sheet .journal-entry-content blockquote {
+  border-left: 4px solid var(--gd-red);
+  background: rgba(180, 30, 0, 0.08);
+  margin: 1.2rem 0;
+  padding: 0.8rem 1.2rem;
+  border-radius: 0 var(--gd-radius) var(--gd-radius) 0;
+}
+
+.gd-journal-sheet .journal-entry-content blockquote p {
+  color: var(--gd-text-secondary);
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+/* === HR === */
+
+.gd-journal-sheet .journal-entry-content hr {
+  border: none;
+  border-top: 1px solid var(--gd-border-medium);
+  margin: 1.5rem 0;
+}
+
+/* === TABLES GÉNÉRIQUES === */
+
+.gd-journal-sheet .journal-entry-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.2rem 0;
+  font-family: var(--font-body);
+  font-size: var(--font-size-sm);
+}
+
+.gd-journal-sheet .journal-entry-content table th {
+  background: rgba(180, 30, 0, 0.25);
+  color: var(--gd-text-primary);
+  font-family: var(--font-title);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: var(--font-size-xs);
+  padding: 0.6rem 0.8rem;
+  border: 1px solid var(--gd-red-dark);
+  font-weight: normal;
+}
+
+.gd-journal-sheet .journal-entry-content table td {
+  color: var(--gd-text-primary);
+  padding: 0.5rem 0.8rem;
+  border: 1px solid var(--gd-border-light);
+  line-height: 1.5;
+}
+
+.gd-journal-sheet .journal-entry-content table tbody tr:nth-child(even) td {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.gd-journal-sheet .journal-entry-content table tbody tr:hover td {
+  background: rgba(180, 30, 0, 0.08);
+}
+
+/* === IMAGES === */
+
+.gd-journal-sheet .journal-entry-content img {
+  border: 1px solid var(--gd-border-medium);
+  border-radius: var(--gd-radius);
+  max-width: 100%;
+}
+
+/* === SCROLLBAR === */
+
+.gd-journal-sheet .journal-entry-content::-webkit-scrollbar {
+  width: 6px;
+}
+
+.gd-journal-sheet .journal-entry-content::-webkit-scrollbar-track {
+  background: rgba(5, 12, 18, 0.8);
+}
+
+.gd-journal-sheet .journal-entry-content::-webkit-scrollbar-thumb {
+  background: var(--gd-red-dark);
+  border-radius: 3px;
+}
+
+/* === FOOTER BANDE (page info) === */
+
+.gd-journal-sheet .journal-footer,
+.gd-journal-sheet .journal-entry-content .page-footer {
+  background: rgba(5, 12, 18, 0.95) !important;
+  border-top: 2px solid var(--gd-red-dark) !important;
+  color: var(--gd-text-muted) !important;
+  font-family: var(--font-title) !important;
+  font-size: var(--font-size-xs) !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.1em !important;
+  padding: 0.4rem 1rem !important;
+}

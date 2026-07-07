@@ -1,7 +1,9 @@
 {
   "id": "mosh-darsh-journal-enhanced",
   "title": "Mosh Darsh Journal Enhanced",
+  "description": "Custom journal sheet themes for Mothership RPG scenarios. Currently includes the Gradient Descent theme.",
   "version": "1.0.0",
+  "authors": [{ "name": "Darsh" }],
   "compatibility": { "minimum": "13", "verified": "13" },
   "esmodules": [
     "themes/gradient-descent/scripts/gradient-descent-journal-sheet.mjs"
